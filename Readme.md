@@ -10,7 +10,7 @@ The project has the following file structure:
         ├── index.html
         ├── styles.css
         ├── script.css
-        ├── spreview.png(project preview)
+        ├── preview.png(project preview)
         └── Readme.md
 
 
