@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">My Webpage</div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#gallery">Image Gallery</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+        </ul>
+    </nav>
+
+    <main class="grid-container">
+        <section id="gallery" class="content">
+            <h1 class="gallery-heading">Image Gallery</h1>
+            <div class="gallery">
+                <div class="image-input-container">
+                    <input type="text" id="imageURL" placeholder="Enter Image URL" />
+                    <button onclick="addImage()">Add Image</button>
+                </div>
+                <div id="galleryContainer" class="gallery-container"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="content">
+            <h1 class="contact-heading">Contact Us</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="contact">Contact no:</label>
+                <input type="tel" id="contact" name="contact" placeholder="Enter your phone no." required>
+
+                <label for="linkedin">LinkedIn:</label>
+                <input type="url" id="linkedin" name="linkedin" placeholder="Enter your LinkedIn id" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Task 2. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
