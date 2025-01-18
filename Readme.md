@@ -10,12 +10,15 @@ The project has the following file structure:
         ├── index.html
         ├── styles.css
         ├── script.css
+        ├── spreview.png(project preview)
         └── Readme.md
 
 
 *   `index.html`: The main HTML file for the webpage, containing the structure and content.
 *   `styles.css`: The CSS file that styles the webpage's appearance.
 *   `script.js`: The JavaScript file that provides the dynamic functionality, such as adding and deleting images in the gallery.
+
+![Project Preview](preview.png)
 
 ## Getting Started
 
